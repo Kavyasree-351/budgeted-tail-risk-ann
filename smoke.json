@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "hard-cap count compliance including zero-prefix",
+    "pointwise prefix risk floor",
+    "known infeasible-cap positive control",
+    "fixed-sequence safe-anchor control",
+    "72-sample tail-test threshold",
+    "nested greedy path"
+  ],
+  "final_queries_evaluated": false
+}

@@ -1,0 +1,73 @@
+{
+  "failure": {
+    "glove": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_18_percent_pass_seeds": [],
+      "secondary_15_percent_pass_seeds": [
+        0,
+        1,
+        2
+      ],
+      "primary_pass": false
+    },
+    "fashion": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_18_percent_pass_seeds": [],
+      "secondary_15_percent_pass_seeds": [],
+      "primary_pass": false
+    }
+  },
+  "engineering_checks": {
+    "glove": {
+      "no_compute_inflation_seeds": [
+        1,
+        2,
+        4
+      ],
+      "hard_mean_target_seeds": [
+        0,
+        2,
+        3
+      ],
+      "all_deciles_empirical_target_seeds": [],
+      "joint_empirical_target_and_no_inflation_seeds": []
+    },
+    "fashion": {
+      "no_compute_inflation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "hard_mean_target_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_deciles_empirical_target_seeds": [
+        3
+      ],
+      "joint_empirical_target_and_no_inflation_seeds": [
+        3
+      ]
+    }
+  },
+  "replicated_primary_failure": false,
+  "novelty_established": false,
+  "full_stage_passed": false,
+  "reserved_queries_evaluated": false
+}

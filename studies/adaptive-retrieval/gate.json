@@ -1,0 +1,10 @@
+{
+  "failure_counts": {
+    "glove": 0,
+    "fashion": 0
+  },
+  "complete_five_seed_two_dataset_pilot": true,
+  "opportunity_gate_passed": false,
+  "novelty_established": false,
+  "reserved_queries_evaluated": false
+}

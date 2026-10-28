@@ -1,0 +1,9 @@
+{
+  "fixed_k_mean_fnr": [
+    "1/10",
+    "1/10"
+  ],
+  "selected_policy_mean_fnr": "1/5",
+  "selector_information": "visible category only; no runtime labels",
+  "scope": "Exact abstract loss-table counterexample, not a realizability proof for ConANN, not an empirical retrieval result and not claimed original."
+}

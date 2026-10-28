@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "conditions": 480,
+  "checks": [
+    "query split disjointness including reserved IDs",
+    "all five seeds retained",
+    "600 paired observations per condition",
+    "raw/summary agreement",
+    "loss and cost bounds",
+    "exact fallback zero loss"
+  ]
+}

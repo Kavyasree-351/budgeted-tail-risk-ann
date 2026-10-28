@@ -1,0 +1,13 @@
+{
+  "repository": "budgeted-tail-risk-ann",
+  "copied_files": 164,
+  "raw_data_excluded": true,
+  "private_paths_sanitized": true,
+  "changes": "Portable cache paths, publication documentation, check runner; numerical experiment outputs preserved.",
+  "included_studies": [
+    "adaptive-retrieval",
+    "group-recall",
+    "novelty-audit"
+  ],
+  "license_selected_by_publication": false
+}

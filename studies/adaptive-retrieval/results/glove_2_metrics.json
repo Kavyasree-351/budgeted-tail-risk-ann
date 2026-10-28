@@ -1,0 +1,1019 @@
+{
+  "rows": [
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.25",
+      "method": "naive_per_k",
+      "fnr": 0.08213333040475845,
+      "ci_low": 0.07376416381448507,
+      "ci_high": 0.09066749271005392,
+      "distances": 2615.181666666667,
+      "probes": 8.185,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        163,
+        0,
+        437
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.25",
+      "method": "selector_common_crc",
+      "fnr": 0.08213333040475845,
+      "ci_low": 0.07376416381448507,
+      "ci_high": 0.09066749271005392,
+      "distances": 2871.835,
+      "probes": 9.0,
+      "budgets": [
+        9,
+        9,
+        9
+      ],
+      "k_histogram": [
+        163,
+        0,
+        437
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.25",
+      "method": "selector_scaled_crc",
+      "fnr": 0.085466668009758,
+      "ci_low": 0.07586582880467177,
+      "ci_high": 0.09473749455064535,
+      "distances": 2530.536666666667,
+      "probes": 7.913333333333333,
+      "budgets": [
+        5,
+        6,
+        9
+      ],
+      "k_histogram": [
+        163,
+        0,
+        437
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.25",
+      "method": "envelope_crc",
+      "fnr": 0.03633333370089531,
+      "ci_low": 0.03163333237171173,
+      "ci_high": 0.04106749854981899,
+      "distances": 4167.766666666666,
+      "probes": 13.098333333333333,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        163,
+        0,
+        437
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.25",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.010900000110268593,
+      "ci_low": 0.009200000180862844,
+      "ci_high": 0.012867499864660202,
+      "distances": 6888.62,
+      "probes": 21.74,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        163,
+        0,
+        437
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.25",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        163,
+        0,
+        437
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.5",
+      "method": "naive_per_k",
+      "fnr": 0.07466666400432587,
+      "ci_low": 0.06456666439771652,
+      "ci_high": 0.0861049972474575,
+      "distances": 2397.565,
+      "probes": 7.485,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        303,
+        0,
+        297
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.5",
+      "method": "selector_common_crc",
+      "fnr": 0.07993333041667938,
+      "ci_low": 0.06959916017949581,
+      "ci_high": 0.0914674986153841,
+      "distances": 2557.673333333333,
+      "probes": 8.0,
+      "budgets": [
+        8,
+        8,
+        8
+      ],
+      "k_histogram": [
+        303,
+        0,
+        297
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.5",
+      "method": "selector_scaled_crc",
+      "fnr": 0.07800000160932541,
+      "ci_low": 0.0665974948555231,
+      "ci_high": 0.08967166468501091,
+      "distances": 2239.765,
+      "probes": 6.98,
+      "budgets": [
+        5,
+        6,
+        9
+      ],
+      "k_histogram": [
+        303,
+        0,
+        297
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.5",
+      "method": "envelope_crc",
+      "fnr": 0.03466666862368584,
+      "ci_low": 0.028333334252238274,
+      "ci_high": 0.042507500480860466,
+      "distances": 3654.73,
+      "probes": 11.465,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        303,
+        0,
+        297
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.5",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.010566666722297668,
+      "ci_low": 0.007499999832361937,
+      "ci_high": 0.014901665574871003,
+      "distances": 6004.721666666666,
+      "probes": 18.94,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        303,
+        0,
+        297
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.5",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        303,
+        0,
+        297
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.75",
+      "method": "naive_per_k",
+      "fnr": 0.07526666671037674,
+      "ci_low": 0.05935833239927888,
+      "ci_high": 0.09171000253409146,
+      "distances": 2119.86,
+      "probes": 6.625,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        475,
+        0,
+        125
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.75",
+      "method": "selector_common_crc",
+      "fnr": 0.09513332694768906,
+      "ci_low": 0.07779999822378159,
+      "ci_high": 0.11260583195835351,
+      "distances": 1921.695,
+      "probes": 6.0,
+      "budgets": [
+        6,
+        6,
+        6
+      ],
+      "k_histogram": [
+        475,
+        0,
+        125
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.75",
+      "method": "selector_scaled_crc",
+      "fnr": 0.08526666462421417,
+      "ci_low": 0.06703166887164116,
+      "ci_high": 0.10293833222240209,
+      "distances": 1872.5166666666667,
+      "probes": 5.833333333333333,
+      "budgets": [
+        5,
+        6,
+        9
+      ],
+      "k_histogram": [
+        475,
+        0,
+        125
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.75",
+      "method": "envelope_crc",
+      "fnr": 0.04793333262205124,
+      "ci_low": 0.03352999780327082,
+      "ci_high": 0.06208666311576961,
+      "distances": 3023.14,
+      "probes": 9.458333333333334,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        475,
+        0,
+        125
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.75",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.018066667020320892,
+      "ci_low": 0.00976666712667793,
+      "ci_high": 0.028239997383207077,
+      "distances": 4933.1883333333335,
+      "probes": 15.5,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        475,
+        0,
+        125
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "ambiguity_q0.75",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        475,
+        0,
+        125
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "inverse_q0.5",
+      "method": "naive_per_k",
+      "fnr": 0.08953333646059036,
+      "ci_low": 0.07209916524589062,
+      "ci_high": 0.1087416598573327,
+      "distances": 2395.965,
+      "probes": 7.515,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        297,
+        0,
+        303
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "inverse_q0.5",
+      "method": "selector_common_crc",
+      "fnr": 0.09726666659116745,
+      "ci_low": 0.07939666211605072,
+      "ci_high": 0.11470415648072958,
+      "distances": 2238.2966666666666,
+      "probes": 7.0,
+      "budgets": [
+        7,
+        7,
+        7
+      ],
+      "k_histogram": [
+        297,
+        0,
+        303
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "inverse_q0.5",
+      "method": "selector_scaled_crc",
+      "fnr": 0.09493333101272583,
+      "ci_low": 0.07522833272814751,
+      "ci_high": 0.11516999751329422,
+      "distances": 2406.985,
+      "probes": 7.525,
+      "budgets": [
+        5,
+        7,
+        10
+      ],
+      "k_histogram": [
+        297,
+        0,
+        303
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "inverse_q0.5",
+      "method": "envelope_crc",
+      "fnr": 0.05289999768137932,
+      "ci_low": 0.03746583415195346,
+      "ci_high": 0.06980083025991916,
+      "distances": 3674.9983333333334,
+      "probes": 11.535,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        297,
+        0,
+        303
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "inverse_q0.5",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.019599998369812965,
+      "ci_low": 0.00976666621863842,
+      "ci_high": 0.03120166575536132,
+      "distances": 6026.75,
+      "probes": 19.06,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        297,
+        0,
+        303
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "inverse_q0.5",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        297,
+        0,
+        303
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "uniform",
+      "method": "naive_per_k",
+      "fnr": 0.07833333313465118,
+      "ci_low": 0.06489750314503909,
+      "ci_high": 0.09230083823204041,
+      "distances": 2327.175,
+      "probes": 7.266666666666667,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "uniform",
+      "method": "selector_common_crc",
+      "fnr": 0.0741666629910469,
+      "ci_low": 0.061297498364001515,
+      "ci_high": 0.08727333527058362,
+      "distances": 2557.673333333333,
+      "probes": 8.0,
+      "budgets": [
+        8,
+        8,
+        8
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "uniform",
+      "method": "selector_scaled_crc",
+      "fnr": 0.07639999687671661,
+      "ci_low": 0.06266416944563388,
+      "ci_high": 0.0901366725564003,
+      "distances": 2316.235,
+      "probes": 7.223333333333334,
+      "budgets": [
+        5,
+        7,
+        10
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "uniform",
+      "method": "envelope_crc",
+      "fnr": 0.04443333297967911,
+      "ci_low": 0.03333333507180214,
+      "ci_high": 0.05626833215355873,
+      "distances": 3570.721666666667,
+      "probes": 11.18,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "uniform",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.016100000590085983,
+      "ci_low": 0.010566666722297668,
+      "ci_high": 0.023168334271758795,
+      "distances": 5725.326666666667,
+      "probes": 18.066666666666666,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "uniform",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_1",
+      "method": "naive_per_k",
+      "fnr": 0.07000000029802322,
+      "ci_low": 0.05000000074505806,
+      "ci_high": 0.09000000357627869,
+      "distances": 1921.695,
+      "probes": 6.0,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_1",
+      "method": "selector_common_crc",
+      "fnr": 0.07000000029802322,
+      "ci_low": 0.05000000074505806,
+      "ci_high": 0.09000000357627869,
+      "distances": 1921.695,
+      "probes": 6.0,
+      "budgets": [
+        6,
+        6,
+        6
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_1",
+      "method": "selector_scaled_crc",
+      "fnr": 0.07000000029802322,
+      "ci_low": 0.05000000074505806,
+      "ci_high": 0.09000000357627869,
+      "distances": 1921.695,
+      "probes": 6.0,
+      "budgets": [
+        6,
+        8,
+        11
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_1",
+      "method": "envelope_crc",
+      "fnr": 0.046666666865348816,
+      "ci_low": 0.029999999329447746,
+      "ci_high": 0.06499999761581421,
+      "distances": 2557.673333333333,
+      "probes": 8.0,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_1",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.018333332613110542,
+      "ci_low": 0.008333333767950535,
+      "ci_high": 0.029999999329447746,
+      "distances": 4142.7716666666665,
+      "probes": 13.0,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_1",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_10",
+      "method": "naive_per_k",
+      "fnr": 0.08349999785423279,
+      "ci_low": 0.07316666841506958,
+      "ci_high": 0.09416666626930237,
+      "distances": 2238.2966666666666,
+      "probes": 7.0,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_10",
+      "method": "selector_common_crc",
+      "fnr": 0.08349999785423279,
+      "ci_low": 0.07316666841506958,
+      "ci_high": 0.09416666626930237,
+      "distances": 2238.2966666666666,
+      "probes": 7.0,
+      "budgets": [
+        7,
+        7,
+        7
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_10",
+      "method": "selector_scaled_crc",
+      "fnr": 0.08349999785423279,
+      "ci_low": 0.07316666841506958,
+      "ci_high": 0.09416666626930237,
+      "distances": 2238.2966666666666,
+      "probes": 7.0,
+      "budgets": [
+        5,
+        7,
+        10
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_10",
+      "method": "envelope_crc",
+      "fnr": 0.04266666620969772,
+      "ci_low": 0.036000002082437275,
+      "ci_high": 0.049170834757387635,
+      "distances": 3513.8033333333333,
+      "probes": 11.0,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_10",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.01966666616499424,
+      "ci_low": 0.015666665509343147,
+      "ci_high": 0.023500001057982445,
+      "distances": 5391.485,
+      "probes": 17.0,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_10",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_50",
+      "method": "naive_per_k",
+      "fnr": 0.094200000166893,
+      "ci_low": 0.08583250008523464,
+      "ci_high": 0.10240083802491426,
+      "distances": 2871.835,
+      "probes": 9.0,
+      "budgets": [
+        6,
+        7,
+        9
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_50",
+      "method": "selector_common_crc",
+      "fnr": 0.094200000166893,
+      "ci_low": 0.08583250008523464,
+      "ci_high": 0.10240083802491426,
+      "distances": 2871.835,
+      "probes": 9.0,
+      "budgets": [
+        9,
+        9,
+        9
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_50",
+      "method": "selector_scaled_crc",
+      "fnr": 0.094200000166893,
+      "ci_low": 0.08583250008523464,
+      "ci_high": 0.10240083802491426,
+      "distances": 2871.835,
+      "probes": 9.0,
+      "budgets": [
+        5,
+        6,
+        9
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_50",
+      "method": "envelope_crc",
+      "fnr": 0.04090000316500664,
+      "ci_low": 0.036265828926116225,
+      "ci_high": 0.04560083402320742,
+      "distances": 4772.055,
+      "probes": 15.0,
+      "budgets": [
+        8,
+        11,
+        15
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_50",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.011833333410322666,
+      "ci_low": 0.010132500133477152,
+      "ci_high": 0.01370249909814447,
+      "distances": 7888.7,
+      "probes": 25.0,
+      "budgets": [
+        13,
+        17,
+        25
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "glove",
+      "seed": 2,
+      "selector": "constant_50",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 20000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    }
+  ],
+  "timing": {
+    "build_seconds": 0.09364429989363998,
+    "trace_seconds": 2.98395420005545,
+    "zero_distance_queries": 0,
+    "centroid_distances": 64
+  },
+  "total_seconds": 3.680680299992673
+}

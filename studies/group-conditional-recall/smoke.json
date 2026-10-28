@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "direct ANN vs trace all budgets",
+    "CRC empty/small-group safe fallback",
+    "bounded-KL zero-loss control",
+    "frozen design bins and deterministic assignment",
+    "marginal/subgroup analytic positive control",
+    "monotone policy domination",
+    "exact full search"
+  ],
+  "synthetic_positive_control": {
+    "global_fnr": 0.09,
+    "hard_fnr": 0.45,
+    "global_crc_accepts_one_probe": true,
+    "not_real_data": true
+  }
+}

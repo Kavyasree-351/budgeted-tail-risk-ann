@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "runs": 10,
+  "policy_conditions": 320,
+  "group_rows": 4800,
+  "checks": [
+    "fresh TRAIN calibration excludes corpus",
+    "original reserved TEST bank untouched",
+    "all seeds/caps/methods retained",
+    "raw-summary and severity predicates agree",
+    "no capped-policy overruns",
+    "prefix lower-envelope domination",
+    "issued calibration criteria",
+    "infeasibility witness criteria",
+    "nested design-only path metadata"
+  ]
+}

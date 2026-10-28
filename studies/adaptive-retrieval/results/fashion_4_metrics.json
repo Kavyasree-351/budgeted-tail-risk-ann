@@ -1,0 +1,1019 @@
+{
+  "rows": [
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.25",
+      "method": "naive_per_k",
+      "fnr": 0.06970000267028809,
+      "ci_low": 0.061532498616725204,
+      "ci_high": 0.07920082546770572,
+      "distances": 513.12,
+      "probes": 2.765,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        141,
+        0,
+        459
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.25",
+      "method": "selector_common_crc",
+      "fnr": 0.06803333014249802,
+      "ci_low": 0.060766663402318954,
+      "ci_high": 0.0764366639778018,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        3,
+        3
+      ],
+      "k_histogram": [
+        141,
+        0,
+        459
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.25",
+      "method": "selector_scaled_crc",
+      "fnr": 0.06970000267028809,
+      "ci_low": 0.061532498616725204,
+      "ci_high": 0.07920082546770572,
+      "distances": 513.12,
+      "probes": 2.765,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        141,
+        0,
+        459
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.25",
+      "method": "envelope_crc",
+      "fnr": 0.03503333404660225,
+      "ci_low": 0.030266666784882545,
+      "ci_high": 0.040566667914390564,
+      "distances": 691.3033333333333,
+      "probes": 3.765,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        141,
+        0,
+        459
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.25",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.01813333109021187,
+      "ci_low": 0.014866666868329048,
+      "ci_high": 0.021934167295694352,
+      "distances": 868.8483333333334,
+      "probes": 4.765,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        141,
+        0,
+        459
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.25",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        141,
+        0,
+        459
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.5",
+      "method": "naive_per_k",
+      "fnr": 0.06589999794960022,
+      "ci_low": 0.05413250718265772,
+      "ci_high": 0.07940166238695383,
+      "distances": 459.695,
+      "probes": 2.4766666666666666,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        314,
+        0,
+        286
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.5",
+      "method": "selector_common_crc",
+      "fnr": 0.05256666988134384,
+      "ci_low": 0.044665833190083506,
+      "ci_high": 0.06187000395730138,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        3,
+        3
+      ],
+      "k_histogram": [
+        314,
+        0,
+        286
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.5",
+      "method": "selector_scaled_crc",
+      "fnr": 0.06589999794960022,
+      "ci_low": 0.05413250718265772,
+      "ci_high": 0.07940166238695383,
+      "distances": 459.695,
+      "probes": 2.4766666666666666,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        314,
+        0,
+        286
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.5",
+      "method": "envelope_crc",
+      "fnr": 0.028299998492002487,
+      "ci_low": 0.02290000021457672,
+      "ci_high": 0.03500333344563841,
+      "distances": 639.885,
+      "probes": 3.4766666666666666,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        314,
+        0,
+        286
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.5",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.015600001439452171,
+      "ci_low": 0.011664166720584035,
+      "ci_high": 0.02113833343610167,
+      "distances": 813.26,
+      "probes": 4.476666666666667,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        314,
+        0,
+        286
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.5",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        314,
+        0,
+        286
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.75",
+      "method": "naive_per_k",
+      "fnr": 0.06186666339635849,
+      "ci_low": 0.04696666821837425,
+      "ci_high": 0.0783374996855855,
+      "distances": 415.23333333333335,
+      "probes": 2.2316666666666665,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        461,
+        0,
+        139
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.75",
+      "method": "selector_common_crc",
+      "fnr": 0.09540000557899475,
+      "ci_low": 0.07903249673545361,
+      "ci_high": 0.1131691601127386,
+      "distances": 371.58166666666665,
+      "probes": 2.0,
+      "budgets": [
+        2,
+        2,
+        2
+      ],
+      "k_histogram": [
+        461,
+        0,
+        139
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.75",
+      "method": "selector_scaled_crc",
+      "fnr": 0.09540000557899475,
+      "ci_low": 0.07903249673545361,
+      "ci_high": 0.1131691601127386,
+      "distances": 371.58166666666665,
+      "probes": 2.0,
+      "budgets": [
+        2,
+        2,
+        2
+      ],
+      "k_histogram": [
+        461,
+        0,
+        139
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.75",
+      "method": "envelope_crc",
+      "fnr": 0.029533332213759422,
+      "ci_low": 0.020466666668653488,
+      "ci_high": 0.04000083245337009,
+      "distances": 596.2766666666666,
+      "probes": 3.2316666666666665,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        461,
+        0,
+        139
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.75",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.014100000262260437,
+      "ci_low": 0.008166666142642498,
+      "ci_high": 0.021935833897441623,
+      "distances": 771.3316666666667,
+      "probes": 4.2316666666666665,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        461,
+        0,
+        139
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "ambiguity_q0.75",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        461,
+        0,
+        139
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "inverse_q0.5",
+      "method": "naive_per_k",
+      "fnr": 0.08640000224113464,
+      "ci_low": 0.06906499955803155,
+      "ci_high": 0.10624666195362806,
+      "distances": 466.02,
+      "probes": 2.5233333333333334,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        286,
+        0,
+        314
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "inverse_q0.5",
+      "method": "selector_common_crc",
+      "fnr": 0.04806666448712349,
+      "ci_low": 0.03679666379466653,
+      "ci_high": 0.06120000034570694,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        3,
+        3
+      ],
+      "k_histogram": [
+        286,
+        0,
+        314
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "inverse_q0.5",
+      "method": "selector_scaled_crc",
+      "fnr": 0.08640000224113464,
+      "ci_low": 0.06906499955803155,
+      "ci_high": 0.10624666195362806,
+      "distances": 466.02,
+      "probes": 2.5233333333333334,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        286,
+        0,
+        314
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "inverse_q0.5",
+      "method": "envelope_crc",
+      "fnr": 0.035333335399627686,
+      "ci_low": 0.024166665971279144,
+      "ci_high": 0.048568332102149725,
+      "distances": 646.47,
+      "probes": 3.5233333333333334,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        286,
+        0,
+        314
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "inverse_q0.5",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.012899999506771564,
+      "ci_low": 0.0070633328170515595,
+      "ci_high": 0.01990083483979106,
+      "distances": 828.5966666666667,
+      "probes": 4.523333333333333,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        286,
+        0,
+        314
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "inverse_q0.5",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        286,
+        0,
+        314
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "uniform",
+      "method": "naive_per_k",
+      "fnr": 0.0575999952852726,
+      "ci_low": 0.045133333560079335,
+      "ci_high": 0.07183666098862886,
+      "distances": 488.85,
+      "probes": 2.6466666666666665,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "uniform",
+      "method": "selector_common_crc",
+      "fnr": 0.03926666080951691,
+      "ci_low": 0.032032502070069316,
+      "ci_high": 0.04766833549365401,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        3,
+        3
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "uniform",
+      "method": "selector_scaled_crc",
+      "fnr": 0.0575999952852726,
+      "ci_low": 0.045133333560079335,
+      "ci_high": 0.07183666098862886,
+      "distances": 488.85,
+      "probes": 2.6466666666666665,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "uniform",
+      "method": "envelope_crc",
+      "fnr": 0.01979999989271164,
+      "ci_low": 0.015232498990371823,
+      "ci_high": 0.025066664488986135,
+      "distances": 669.5366666666666,
+      "probes": 3.6466666666666665,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "uniform",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.009533333592116833,
+      "ci_low": 0.0070666661486029625,
+      "ci_high": 0.012368333106860517,
+      "distances": 845.615,
+      "probes": 4.6466666666666665,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "uniform",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        212,
+        202,
+        186
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_1",
+      "method": "naive_per_k",
+      "fnr": 0.07666666805744171,
+      "ci_low": 0.05666666850447655,
+      "ci_high": 0.10000000149011612,
+      "distances": 371.58166666666665,
+      "probes": 2.0,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_1",
+      "method": "selector_common_crc",
+      "fnr": 0.07666666805744171,
+      "ci_low": 0.05666666850447655,
+      "ci_high": 0.10000000149011612,
+      "distances": 371.58166666666665,
+      "probes": 2.0,
+      "budgets": [
+        2,
+        2,
+        2
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_1",
+      "method": "selector_scaled_crc",
+      "fnr": 0.07666666805744171,
+      "ci_low": 0.05666666850447655,
+      "ci_high": 0.10000000149011612,
+      "distances": 371.58166666666665,
+      "probes": 2.0,
+      "budgets": [
+        2,
+        2,
+        2
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_1",
+      "method": "envelope_crc",
+      "fnr": 0.02500000037252903,
+      "ci_low": 0.013333333656191826,
+      "ci_high": 0.03999999910593033,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_1",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.008333333767950535,
+      "ci_low": 0.0016666667070239782,
+      "ci_high": 0.01666666753590107,
+      "distances": 732.2216666666667,
+      "probes": 4.0,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_1",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        600,
+        0,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_10",
+      "method": "naive_per_k",
+      "fnr": 0.036666665226221085,
+      "ci_low": 0.02983333356678486,
+      "ci_high": 0.0451708341948688,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_10",
+      "method": "selector_common_crc",
+      "fnr": 0.036666665226221085,
+      "ci_low": 0.02983333356678486,
+      "ci_high": 0.0451708341948688,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        3,
+        3
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_10",
+      "method": "selector_scaled_crc",
+      "fnr": 0.036666665226221085,
+      "ci_low": 0.02983333356678486,
+      "ci_high": 0.0451708341948688,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_10",
+      "method": "envelope_crc",
+      "fnr": 0.015666667371988297,
+      "ci_low": 0.011666666716337204,
+      "ci_high": 0.020170833868905898,
+      "distances": 732.2216666666667,
+      "probes": 4.0,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_10",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.008166667073965073,
+      "ci_low": 0.005500000435858965,
+      "ci_high": 0.011166666634380817,
+      "distances": 909.635,
+      "probes": 5.0,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_10",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_50",
+      "method": "naive_per_k",
+      "fnr": 0.07563333213329315,
+      "ci_low": 0.06853166464716196,
+      "ci_high": 0.08423500284552574,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_50",
+      "method": "selector_common_crc",
+      "fnr": 0.07563333213329315,
+      "ci_low": 0.06853166464716196,
+      "ci_high": 0.08423500284552574,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        3,
+        3,
+        3
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_50",
+      "method": "selector_scaled_crc",
+      "fnr": 0.07563333213329315,
+      "ci_low": 0.06853166464716196,
+      "ci_high": 0.08423500284552574,
+      "distances": 554.1333333333333,
+      "probes": 3.0,
+      "budgets": [
+        2,
+        3,
+        3
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_50",
+      "method": "envelope_crc",
+      "fnr": 0.03863333538174629,
+      "ci_low": 0.03420000150799751,
+      "ci_high": 0.044099997729063034,
+      "distances": 732.2216666666667,
+      "probes": 4.0,
+      "budgets": [
+        3,
+        4,
+        4
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_50",
+      "method": "simultaneous_hoeffding",
+      "fnr": 0.020166665315628052,
+      "ci_low": 0.016865832032635808,
+      "ci_high": 0.023834167746827006,
+      "distances": 909.635,
+      "probes": 5.0,
+      "budgets": [
+        4,
+        5,
+        5
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    },
+    {
+      "dataset": "fashion",
+      "seed": 4,
+      "selector": "constant_50",
+      "method": "exact",
+      "fnr": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "distances": 10000.0,
+      "probes": 64.0,
+      "budgets": [
+        64,
+        64,
+        64
+      ],
+      "k_histogram": [
+        0,
+        0,
+        600
+      ]
+    }
+  ],
+  "timing": {
+    "build_seconds": 1.7858801999827847,
+    "trace_seconds": 2.1532013000687584,
+    "zero_distance_queries": 0,
+    "centroid_distances": 64
+  },
+  "total_seconds": 4.530820599989966
+}

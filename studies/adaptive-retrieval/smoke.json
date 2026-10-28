@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "brute-force candidate recall for all k/probes",
+    "nested losses and costs",
+    "full-search exactness",
+    "CRC correction and fallback"
+  ],
+  "python": "3.12.6"
+}

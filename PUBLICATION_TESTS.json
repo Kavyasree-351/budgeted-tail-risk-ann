@@ -1,0 +1,51 @@
+{
+  "successful": true,
+  "checks": [
+    {
+      "command": [
+        "experiment.py",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "seconds": 20.86118989996612
+    },
+    {
+      "command": [
+        "validate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 10.359576100017875
+    },
+    {
+      "command": [
+        "studies/adaptive-retrieval/research.py",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "seconds": 19.163799500092864
+    },
+    {
+      "command": [
+        "studies/adaptive-retrieval/validate_results.py"
+      ],
+      "exit_code": 0,
+      "seconds": 19.12046369991731
+    },
+    {
+      "command": [
+        "studies/group-conditional-recall/experiment.py",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "seconds": 20.414133400074206
+    },
+    {
+      "command": [
+        "studies/group-conditional-recall/validate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 32.30517069995403
+    }
+  ],
+  "final_queries_evaluated": false
+}

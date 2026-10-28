@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "dataset_seed_runs": 10,
+  "conditions": 2800,
+  "checks": [
+    "all seeds retained",
+    "exploratory/reserved split separation",
+    "raw/summary agreement",
+    "group calibration criteria and correct group counts",
+    "OOD calibration exclusion",
+    "monotone and uniform policy dominance",
+    "exact and unseen-cell fallback safety"
+  ]
+}

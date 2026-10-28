@@ -1,0 +1,10 @@
+{
+  "glove": {
+    "top50_set_disagreements": 0,
+    "queries_checked": 20
+  },
+  "fashion": {
+    "top50_set_disagreements": 0,
+    "queries_checked": 20
+  }
+}

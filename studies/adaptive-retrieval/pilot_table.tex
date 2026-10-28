@@ -1,0 +1,19 @@
+% Verified pilot outcomes only; no novel-method result. Seed ranges are descriptive.
+\begin{tabular}{llrr}
+\hline
+Dataset & Method & Mean FNR & Distances \\
+\hline
+glove & Separate per-k CRC (marginal only) & 0.0827 & 2310 \\
+glove & Selector-specific common CRC & 0.0885 & 2506 \\
+glove & Selector-specific scaled CRC & 0.0855 & 2301 \\
+glove & Worst-over-k CRC & 0.0429 & 3649 \\
+glove & Simultaneous Hoeffding & 0.0137 & 5891 \\
+glove & Exact search & 0.0000 & 20000 \\
+fashion & Separate per-k CRC (marginal only) & 0.0636 & 467 \\
+fashion & Selector-specific common CRC & 0.0573 & 552 \\
+fashion & Selector-specific scaled CRC & 0.0636 & 467 \\
+fashion & Worst-over-k CRC & 0.0302 & 647 \\
+fashion & Simultaneous Hoeffding & 0.0156 & 840 \\
+fashion & Exact search & 0.0000 & 10000 \\
+\hline
+\end{tabular}
